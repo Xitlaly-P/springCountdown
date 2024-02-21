@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'dancing';
+  src: url(SpringTime\ Personal\ Use.ttf);
+}
+
+body{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/012/300/796/original/floral-seamless-pattern-with-purple-daisy-flower-and-leaves-on-pastel-violet-background-illustration-vector.jpg");
+  background-size: 50%;
+  background-repeat: repeat;
+  justify-content:center;
+}
+
+.tl{
+  font-family: "Dancing Script";
+  font-weight: bolder;
+  text-align: center;
+  font-size: 5vw;
+  color:	#5e8d5a;
+  margin-bottom:3vh;
+  margin-top:25vh;
+}
+#countdown{
+  font-family: "Protest Riot", sans-serif;
+  font-size:2vw;
+  text-align:center;
+  color:	#41FFBB;
+  text-shadow: 2px 2px 10px #C5CBFC;
+}
+.count{
+  font-family: "Protest Riot", sans-serif;
+  font-size:1.8vw;
+  text-align:center;
+  color:#5e8d5a;
+}
+.egg{
+  max-width:4.5vw;
+  opacity:0%;
+  position:absolute;
+}
+.egg:hover{
+  opacity:100%;
+}
+.container{
+  align-items: center;
+  text-align: center;
+}
+.music{
+  max-height: 25vh;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  display: none;
+}
+.words{
+  font-family: "Protest Riot", sans-serif;
+  font-size:1.2vw;
+  text-align:center;
+  color:	#5e8d5a;
+}
+#vid{
+  max-height: 20vh;
+  max-width: 40vw;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  display: none;
+}
